@@ -21,4 +21,4 @@ The project uses a simple Arduino-style sketch to blink the LED.
 - Arduino IDE
 
 ## Purpose
-This project is created as a beginner-level embedded systems demo and is suitable for learning and interview presentation.
+This project is created as a beginner-level embedded systems demo.
