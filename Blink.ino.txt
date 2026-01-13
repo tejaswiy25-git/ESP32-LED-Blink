@@ -1,0 +1,15 @@
+// blink_esp32.ino
+const int LED_PIN = 5; // common built-in LED / wire external LED to GPIO2
+void setup() {
+  Serial.begin(115200);
+  pinMode(LED_PIN, OUTPUT);
+  Serial.println("Blink start");
+}
+void loop() {
+  digitalWrite(LED_PIN, HIGH);
+  Serial.println("LED ON");
+  delay(500);
+  digitalWrite(LED_PIN, LOW);
+  Serial.println("LED OFF");
+  delay(500);
+}
